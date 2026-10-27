@@ -1,0 +1,16 @@
+FROM node:20-alpine
+
+WORKDIR /app
+
+# Copy dependency definitions first to leverage Docker layer caching
+COPY package.json package-lock.json* ./
+
+RUN npm install
+
+# The source code is mounted via docker-compose, but copying ensures a fallback
+COPY . .
+
+EXPOSE 5173
+
+# The --host flag is strictly required for Vite to expose the port outside the container network
+CMD ["npm", "run", "dev", "--", "--host"]

@@ -1,0 +1,15 @@
+FROM golang:1.26-alpine
+
+WORKDIR /app
+
+# Copy Go module files
+COPY go.mod go.sum* ./
+# COPY go.sum ./ (Uncomment this if you have run `go mod tidy` and generated a go.sum)
+
+RUN go mod download
+
+COPY . .
+
+EXPOSE 8080
+
+CMD ["go", "run", "main.go"]
