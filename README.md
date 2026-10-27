@@ -11,5 +11,3 @@ Last time, their website sold 51 pairs when they only had 20, and they had to re
 3. If stock is 0, users can join a waiting line. When someone's hold runs out, the first person in line automatically gets that pair, with their own 5 minutes.
 4. Payments are fake. You don't need to build a real payment system, just make your own simple fake one that sends your app a "payment succeeded" message, like a real payment company would. Real ones are messy, so sometimes the message comes late, sometimes twice, sometimes in the wrong order.
 5. One page shows the pairs left, the user's hold countdown, and their place in the waiting line. It doesn't need to look good, plain text is fine.
-
-Use any language or tools you are comfortable with.
