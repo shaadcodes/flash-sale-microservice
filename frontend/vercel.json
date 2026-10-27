@@ -2,7 +2,7 @@
   "rewrites": [
     {
       "source": "/api/:path*",
-      "destination": "https://your-backend-name.onrender.com/api/:path*"
+      "destination": "https://flash-sale-engine-api-12fi.onrender.com//api/:path*"
     }
   ]
 }
