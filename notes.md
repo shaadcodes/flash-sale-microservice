@@ -8,11 +8,7 @@ Write the steps to start your project here.
 
 Write anything that needs to be installed or set up first (for example a database, a Node or Python version, environment variables).
 
-# Sneaker Drop - Flash Sale Engine
-
-**Loom Video Walkthrough:** [https://www.loom.com/share/b2319abff9e24fe4937e7015b21484ec]
-
-# Sneaker Drop - Flash Sale Engine
+# Flash Sale Engine
 
 A thread-safe, high-concurrency backend built in Go paired with a React/Vite frontend to handle limited-stock flash sales without race conditions or overselling.
 

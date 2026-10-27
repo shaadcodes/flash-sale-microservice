@@ -1,4 +1,4 @@
-# Sneaker Drop
+# Flash Sale
 
 A small shoe brand is launching one limited sneaker. They only have 20 pairs. When the sale opens, thousands of people will click Buy at the same second.
 
@@ -13,11 +13,3 @@ Last time, their website sold 51 pairs when they only had 20, and they had to re
 5. One page shows the pairs left, the user's hold countdown, and their place in the waiting line. It doesn't need to look good, plain text is fine.
 
 Use any language or tools you are comfortable with.
-
-## What you send back
-
-1. Your code (repo or zip)
-2. A NOTES.md file that tells how to run the project, and any other requirements that are needed
-3. A screen recording (Loom or any tool you like) where you explain your project
-
-Please fork this repo and build your project in your fork.
